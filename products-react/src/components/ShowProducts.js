@@ -6,7 +6,7 @@ import { show_alerta } from "../functions";
 
 
 const ShowProducts = () => {
-    const url = 'http://localhost/proyectos/api-products/';
+    const url = 'http://localhost/proyectos/CRUD-REACT/api-products/';
     const [products, setProducts] = useState([]);
     const [id, setId] = useState('');
     const [name, setName] = useState('');
